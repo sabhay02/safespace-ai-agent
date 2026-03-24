@@ -1,0 +1,21 @@
+[project]
+name = "safespace-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.135.1",
+    "langchain>=1.2.10",
+    "langchain-groq>=1.1.2",
+    "langchain-openai>=1.1.11",
+    "langgraph>=1.0.10",
+    "ollama>=0.6.1",
+    "pydantic>=2.12.5",
+    "python-multipart>=0.0.22",
+    "requests>=2.32.5",
+    "streamlit>=1.55.0",
+    "twilio>=9.10.3",
+    "unicorn>=2.1.4",
+    "uvicorn>=0.41.0",
+]
